@@ -1,0 +1,1 @@
+#!/bin/bash#Basic Arithmetic using Let commandecho "Basic Arithmetic using Let command"let a=15+20echo "a= 15+20 =" $a #35let "b=29*20"echo "b= 29*20 =" $a #580let a++echo "a++ =" $a #36let "x=$1+30"echo "x= $1+30 =" $x  #30 + first command line argumentlet u=16/4echo "u= 16/4 =" $u #4let y=4/16echo "y =4/16 =" $y #ceil the value to smallest number
